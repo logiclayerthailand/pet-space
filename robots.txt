@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pet-space.co.th/sitemap.xml
+Sitemap: https://pet-space-tau.vercel.app/sitemap.xml
