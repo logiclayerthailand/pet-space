@@ -1,0 +1,6 @@
+# ไฟล์ต้นทาง — ไม่ต้อง deploy ขึ้น Vercel (ใช้แค่ตอน build)
+content
+scripts
+node_modules
+.git
+SEO-PLAN.md
