@@ -141,6 +141,9 @@ ${opts.keywords ? `<meta name="keywords" content="${escAttr(opts.keywords)}">\n`
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${prefix}assets/style.css">
 ${(opts.jsonld || []).map(j => `<script type="application/ld+json">\n${JSON.stringify(j)}\n</script>`).join('\n')}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C55FVSRJDN"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-C55FVSRJDN');</script>
 </head>
 <body>`;
 }
